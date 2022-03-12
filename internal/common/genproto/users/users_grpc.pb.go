@@ -4,7 +4,7 @@
 // - protoc             v3.19.3
 // source: users.proto
 
-package trainer
+package users
 
 import (
 	context "context"

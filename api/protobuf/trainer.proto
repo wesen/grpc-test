@@ -3,6 +3,8 @@ syntax = "proto3";
 package trainer;
 import "google/protobuf/timestamp.proto";
 
+option go_package = "internal/common/genproto/trainer";
+
 service TrainerService {
   rpc IsHourAvailable(IsHourAvailableRequest) returns (IsHourAvailableResponse) {}
   rpc UpdateHour(UpdateHourRequest) returns (EmptyResponse) {}
